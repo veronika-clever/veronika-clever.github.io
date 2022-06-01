@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-left: 70px;
+}
+
+.menu{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffbf69;
+    background-image: url(background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainInner{
+    padding-top: 25vh;
+}
+
+h1{
+    margin: 0;
+    margin-left: -7px;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 144px;
+}
+
+.text{
+    margin: 0;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 252px;
+    height: 66px;
+    background-color: #CBF3F0;
+
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.popitInner{
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.game{
+    width: 70%;
+    line-height: 1.5em;
+    font-weight: 400;
+   }
+
+   .grid-wrapper{ 
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 15vh; 
+    text-align: center; 
+    background-color: #CBF3F0; 
+    padding-top: 15vh; 
+    padding-bottom: 15vh; 
+   } 
+    
+   .grid{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    margin-top: 6vh; 
+   } 
+    
+   .product{ 
+    width: 150px; 
+    height: 150px; 
+   } 
+    
+   .buy{ 
+    background-color: #ffbf69; 
+    color: #000; 
+    text-decoration: none; 
+    padding: 5px 10px;
+   }
